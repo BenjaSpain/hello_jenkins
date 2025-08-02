@@ -8,7 +8,7 @@ pipeline {
         steps {
             timeout(time: 1, unit: 'MINUTES') {
                 retry(2) {
-                    sh 'python --version'
+                    sh 'python3 --version'
                 }
             }
         }
