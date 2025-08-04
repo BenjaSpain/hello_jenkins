@@ -11,7 +11,7 @@ pipeline {
     }
     stage('stage 2') {
       steps {
-        sh './test-script.sh'
+        sh './test1-script.sh'
       }
     }
     stage('stage 3') {
